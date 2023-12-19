@@ -1,0 +1,164 @@
+body{
+    background-color: rgb(191, 19, 154);
+   width: 75%;
+   height:100%;
+   margin-left: -0%;
+    background-image: url(./logo/body.png);
+    background-repeat: no-repeat;
+}
+header{
+    width: 130%;
+    height:80%;
+    margin-right:15%;
+    background-color: #5d145d;
+}
+/*..copita*/
+.seccionA{
+width:3%;
+height:10%; 
+margin:1%;
+margin-top:1%;
+margin-bottom: 5.5%;
+ }
+/*texto del logo*/
+.seccionB{
+width:25%;
+height:40%;
+margin:1%;
+margin-inline-start:-2%;
+margin-bottom: 5.5%;
+}
+/*..seccion nav.. */
+nav,ul{
+    width:10%;
+    height: 10%;
+    list-style: none;
+    margin:1%;
+    padding:-1%;
+    display:flex;
+    justify-content: flex-end;
+}
+nav,li{
+    width: 100%;
+    height:200%;
+    margin:5%;
+    margin-top: 5%;
+    margin-bottom:5%;
+}
+nav,a{
+    background-color: rgb(147, 143, 143);
+    text-decoration: none;
+color:#fefbfbfc;
+font-weight: bold;
+width: 100%;
+margin: 0;
+margin-top:90px;
+left: 40%;
+text-decoration: none; /*agregando otros style al menú*/
+padding: 10px 15px;
+font-size: 16px;
+color: #fff;
+background-color: #5d145d;
+border-radius: 4px;
+transition: background-color 0.3s ease;
+}
+/*style para pasar el mouse*/
+nav a:hover {
+    background-color: #5a005a;
+}
+/* Estilos adicionales para un toque elegante */
+nav {
+    font-family: 'Helvetica Neue', sans-serif; /*  la fuente de texto */
+    background-color: #781c78; /* Un tono más oscuro del malbec para mayor elegancia */
+}
+nav a {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sutil sombra para un efecto elevado */
+}
+nav a:hover {
+    background-color: #6b006b; /*  tono más oscuro al pasar el ratón para un efecto elegante */
+}
+/*..cuadrante img del logo..*/
+.cuadrante1{
+    width:50%;
+    height: 65px;
+    position:relative;
+    top:30%;
+    left: 0;
+    }
+.logo{
+  width:80%;
+    height:300%;
+    right: 20%;
+}
+.cuadrante2{
+ width: 70%;
+ height:65%;
+position: sticky;
+top:50%;
+left: 65%;
+bottom: 30%;
+}
+.poema{  /*..poema en vez de mancha*/
+    width: 100%;
+    height:100%;
+    margin-left: 45%;
+    padding: 0;
+    padding-left:2%;
+    margin-top:-11.5%;
+}
+.cuadrante4{
+    bottom:-65%;
+    right: 10%;
+
+}
+.botella{
+    width: 80%;
+    margin-bottom:38% ;
+    margin-left: 26%;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    margin-top:-1.1%;
+    color: #f1eded;
+    background-color: #5d145d;
+    text-align: center;
+    margin-bottom: 33%;
+} 
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    body {
+        background-color: #abcdef;
+    }
+
+    .cuadrante1 {
+        width: 100%;
+    }
+    nav,li{
+        width: 100%;
+        height:200%;
+        margin:100%;
+        margin-top: 8%;
+        margin-bottom:8%;
+    }
+
+
+    nav,a{
+    font-weight: bold;
+    width: 83%;
+    margin: 0 0%;
+    margin-top:25%;
+   text-decoration: none;
+    padding: 0.5rem 0;
+    font-size: 16px;
+    color: #fff;
+    background-color: #5d145d;
+    border-radius: 2%;
+    transition: background-color 0.3s ease;
+    }
+
+
+
+}
